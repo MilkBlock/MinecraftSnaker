@@ -1,0 +1,6 @@
+this.keyTracker_ASSAULT=new KeyTracker(target,KeyEvent.VK_NUMPAD4) {
+		public void tick() {
+			((Snake)this.getEventUnit()).getSkills().releaseSkill(Skills.SKILL_ASSAULT);
+		}
+	};
+}
